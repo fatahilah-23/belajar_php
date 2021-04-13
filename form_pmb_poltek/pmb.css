@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: greenyellow;
+}
+.wrapper{
+    width: 95%;
+    height: 800px;
+    margin-top: 1%;
+    margin-left: 2.5%;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-left: 20px;
+    float: left;
+}
+.title{
+font-size: 40pt;
+font-weight: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(50, 119, 50);
+width: 60%;
+height: 150px;
+text-align: left;
+margin-left: 13%;
+
+
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(32, 156, 32);
+}
+.menu ul li a{
+    text-decoration: none;
+    background-color: rgb(32, 156, 32);
+}
+.menu ul li{
+    list-style: none;
+    width:200px ;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(32, 156, 32);
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu ul li:hover{
+    background-color: black;
+    color: cornsilk;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: cornsilk;
+}
+.content{
+    width: 100%;
+    height: 600px ;
+    margin-bottom: 10px;
+    background-color: honeydew;  
+    text-align: center;
+    line-height: 200px;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.content form input[type=submit]{
+	width: 70%;
+	height: 30px;
+	font-size: 17px;
+	margin-bottom: 1%;
+	background-color: green;
+	border: 4px solid;
+	color: #fff;
+	border-radius: 4px solid;
+	cursor:pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.content form input[type=submit]:hover{
+    background-color:#000; 
+}
+
+.daftar form{
+    background-color: honeydew;  
+    line-height: 0px;
+    text-align: left;
+
+}
+.daftar td input{
+    background-color: honeydew;  
+}
+.daftar td{
+    background-color: honeydew;  
+    text-decoration: none;
+}
+.daftar table{
+    line-height: 20px;
+    width:30%;
+    height: 50px;
+    font-size: 10pt;
+    font-weight: normal;
+    background-color: honeydew;  
+    margin: auto;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
