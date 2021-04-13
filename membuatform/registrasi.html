@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALAMAN BERANDA</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <img src="logo poltek.png" alt="logo" width="150px" height="150px">
+
+            </div>
+            <div class="title">
+                PENERIMAAN MAHASISWA BARU (PMB) POLITEKNIK GAJAH TUNGGAL
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="daftar.html">DAFTAR</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </div>    
+        <div class="content">
+            <ol type="A">
+                <li>DATA MAHASISWA</li>
+            
+                <table>
+                    <tr>
+                        <td>NISN</td>
+                        <td>
+                            <align="center">:</align>
+                        </td>
+                        <td><input type="text" name="NISN" size="20" required="">
+                            <font face="lemon milk" color="green"> <b>Pastikan NISN anda sudah benar</b></font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nama Calon Mahasiswa</td>
+                        <td>:</td>
+                        <td><input type="text" name="Nama_Calon_Mahasiswa" size="35" maxlength="30"
+                                placeholder="isi dengan nama lengkap anda"></td>
+                    </tr>
+                    <tr>
+                        <td>Tempat Lahir</td>
+                        <td>:</td>
+                        <td><input type="text" name="Tempat_Lahir" size="35" maxlength="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><input type="date" name="Tanggal_Lahir"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><input type="radio" name="Jenis_Kelamin" value="pria">Pria
+                            <input type="radio" name="Jenis_Kelamin" value="Wanita">Wanita
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td><select name="Agama">
+                                <option value="Pilih Agama" selected="selected">--Pilih Agama--</option>
+                                <option value="islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katholik">Katholik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+            
+                    <tr>
+                        <td>Anak ke</td>
+                        <td>:</td>
+                        <td><input type="text" name="Anak_ke" size="10"></td>
+                    </tr>
+            
+                    </tbody>
+                </table><br>
+                <li>DATA PRIBADI</li>
+                <BR>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Provinsi Asal</td>
+                            <td>:</td>
+                            <td><select name="Provinsi">
+                                    <option value="Pilih_Provinsi" selected="selected">--Pilih Provinsi--</option>
+                                    <option value="Aceh">Aceh</option>
+                                    <option value="Bali">Bali</option>
+                                    <option value="Banten">Banten</option>
+                                    <option value="Bengkulu">Bengkulu</option>
+                                    <option value="Gorontalo">Gorontalo</option>
+                                    <option value="Jakarta">Jakarta</option>
+                                    <option value="Jambi">Jambi</option>
+                                    <option value="Jawa_Barat">Jawa Barat</option>
+                                    <option value="Jawa_Tengah">Jawa Tengah</option>
+                                    <option value="Jawa_Timur">Jawa Timur</option>
+                                    <option value="Kalimantan_Barat">Kalimantan Barat</option>
+                                    <option value="Kalimantan_Selatan">Kalimantan Selatan</option>
+                                    <option value="Kalimantan_Tengah">Kalimantan Tengah</option>
+                                    <option value="Kalimantan_Timur">Kalimantan Timur</option>
+                                    <option value="Kalimantan_Utara">Kalimantan Utara</option>
+                                    <option value="Kepulauan_Bangka_Belitung">Kepulauan Bangka Belitung</option>
+                                    <option value="Kepulauan_Riau">Kepulauan Riau</option>
+                                    <option value="Lampung">Lampung</option>
+                                    <option value="Maluku">Maluku</option>
+                                    <option value="Maluku_Utara">Maluku Utara</option>
+                                    <option value="Nusa_Tenggara_Barat">Nusa Tenggara Barat</option>
+                                    <option value="Nusa_Tenggara_Timur">Nusa Tenggara Timur</option>
+                                    <option value="Papua">Papua</option>
+                                    <option value="Papua_Barat">Papua Barat</option>
+                                    <option value="Riau">Riau</option>
+                                    <option value="Sulawesi_Barat">Sulawesi Barat</option>
+                                    <option value="Sulawesi_Selatan">Sulawesi Selatan</option>
+                                    <option value="Sulawesi_tengah">Sulawesi_Tengah</option>
+                                    <option value="Sulawesi_Tenggara">Sulawesi Tenggara</option>
+                                    <option value="Sulawesi_utara">Sulawesi Utara</option>
+                                    <option value="Sumatera_Barat">Sumatera Barat</option>
+                                    <option value="Sumatera_Selatan">Sumatera Selatan</option>
+                                    <option value="Sumatera_utara">Sumatera Utara</option>
+                                    <option value="yogyakarta">Yogyakarta</option>
+                                </select>
+            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Selama Bersekolah Tinggal Dengan</td>
+                            <td>:</td>
+                            <td><input type="text" name="Tinggal_saat_sekolah" size="35"></td>
+                        </tr>
+                        <tr>
+                            <td>Kendaraan Ke Sekolah</td>
+                            <td>:</td>
+                            <td><select name="Kendaraan">
+                                    <option value="Pilih_Kendaraan" selected="selected">--Pilih Kendaraan--</option>
+                                    <option value="Mobil">Mobil</option>
+                                    <option value="Motor">Motor</option>
+                                    <option value="Sepeda">Sepeda</option>
+                                    <option value="Lain_lain">lain-lain</option>
+                                </select></td>
+                        </tr>
+                    </tbody>
+                </table><br>
+                <li>KETERANGAN JASMANI</li>
+                <BR>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Tinggi Badan</td>
+                            <td>:</td>
+                            <td><input type="text" size="15" maxlength="3">Cm</td>
+                        </tr>
+                        <tr>
+                            <td>Berat Badan</td>
+                            <td>:</td>
+                            <td><input type="text" size="15" maxlength="3">Kg</td>
+                        </tr>
+                        <tr>
+                            <td>Golongan Darah</td>
+                            <td>:</td>
+                            <td><select name="Goldar">
+                                    <option value="Pilih_Goldar" selected="selected">--Pilih Golongan Darah--</option>
+                                    <option value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="AB">AB</option>
+                                    <option value="O">O</option>
+                                </select></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <li>KETERANGAN PENDIDIKAN SEBELUMNYA</li>
+                <BR>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Asal Sekolah</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Pendidikan</td>
+                            <td>:</td>
+                            <td><select name="Jenis_Pendidikan">
+                                    <option value="Pilih_Jenis_Pendidikan" selected="selected">--Pilih Jenis Pendidikan--</option>
+                                    <option value="SMA">SMA</option>
+                                    <option value="SMK">SMK</option>
+                                    <option value="MA_MK">MA/MK</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Jurusan</td>
+                            <td>:</td>
+                            <td><select name="Jurusan">
+                                    <option value="Pilih_Jurusan" selected="selected">--Pilih Jurusan--</option>
+                                    <option value="Mesin">Mesin</option>
+                                    <option value="Elektro">Elektronika</option>
+                                    <option value="SMA">IPA</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Tahun Lulus</td>
+                            <td>:</td>
+                            <td><input type="text" size="15" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat Sekolah</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Provinsi</td>
+                            <td>:</td>
+                            <td><select name="Provinsi_Sekolah">
+                                    <option value="Pilih_Provinsi" selected="selected">--Pilih Provinsi--</option>
+                                    <option value="Aceh">Aceh</option>
+                                    <option value="Bali">Bali</option>
+                                    <option value="Banten">Banten</option>
+                                    <option value="Bengkulu">Bengkulu</option>
+                                    <option value="Gorontalo">Gorontalo</option>
+                                    <option value="Jakarta">Jakarta</option>
+                                    <option value="Jambi">Jambi</option>
+                                    <option value="Jawa_Barat">Jawa Barat</option>
+                                    <option value="Jawa_Tengah">Jawa Tengah</option>
+                                    <option value="Jawa_Timur">Jawa Timur</option>
+                                    <option value="Kalimantan_Barat">Kalimantan Barat</option>
+                                    <option value="Kalimantan_Selatan">Kalimantan Selatan</option>
+                                    <option value="Kalimantan_Tengah">Kalimantan Tengah</option>
+                                    <option value="Kalimantan_Timur">Kalimantan Timur</option>
+                                    <option value="Kalimantan_Utara">Kalimantan Utara</option>
+                                    <option value="Kepulauan_Bangka_Belitung">Kepulauan Bangka Belitung</option>
+                                    <option value="Kepulauan_Riau">Kepulauan Riau</option>
+                                    <option value="Lampung">Lampung</option>
+                                    <option value="Maluku">Maluku</option>
+                                    <option value="Maluku_Utara">Maluku Utara</option>
+                                    <option value="Nusa_Tenggara_Barat">Nusa Tenggara Barat</option>
+                                    <option value="Nusa_Tenggara_Timur">Nusa Tenggara Timur</option>
+                                    <option value="Papua">Papua</option>
+                                    <option value="Papua_Barat">Papua Barat</option>
+                                    <option value="Riau">Riau</option>
+                                    <option value="Sulawesi_Barat">Sulawesi Barat</option>
+                                    <option value="Sulawesi_Selatan">Sulawesi Selatan</option>
+                                    <option value="Sulawesi_tengah">Sulawesi_Tengah</option>
+                                    <option value="Sulawesi_Tenggara">Sulawesi Tenggara</option>
+                                    <option value="Sulawesi_utara">Sulawesi Utara</option>
+                                    <option value="Sumatera_Barat">Sumatera Barat</option>
+                                    <option value="Sumatera_Selatan">Sumatera Selatan</option>
+                                    <option value="Sumatera_utara">Sumatera Utara</option>
+                                    <option value="yogyakarta">Yogyakarta</option>
+                                </select>
+            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nama Kepala Sekolah</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"> <b>pastikan di sertai gelar</b> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <li>KETERANGAN ORANG TUA</li>
+                <BR>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Nama Ayah</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Ibu</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Provinsi</td>
+                            <td>:</td>
+                            <td><select name="Provinsi_Sekolah">
+                                    <option value="Pilih_Provinsi" selected="selected">--Pilih Provinsi--</option>
+                                    <option value="Aceh">Aceh</option>
+                                    <option value="Bali">Bali</option>
+                                    <option value="Banten">Banten</option>
+                                    <option value="Bengkulu">Bengkulu</option>
+                                    <option value="Gorontalo">Gorontalo</option>
+                                    <option value="Jakarta">Jakarta</option>
+                                    <option value="Jambi">Jambi</option>
+                                    <option value="Jawa_Barat">Jawa Barat</option>
+                                    <option value="Jawa_Tengah">Jawa Tengah</option>
+                                    <option value="Jawa_Timur">Jawa Timur</option>
+                                    <option value="Kalimantan_Barat">Kalimantan Barat</option>
+                                    <option value="Kalimantan_Selatan">Kalimantan Selatan</option>
+                                    <option value="Kalimantan_Tengah">Kalimantan Tengah</option>
+                                    <option value="Kalimantan_Timur">Kalimantan Timur</option>
+                                    <option value="Kalimantan_Utara">Kalimantan Utara</option>
+                                    <option value="Kepulauan_Bangka_Belitung">Kepulauan Bangka Belitung</option>
+                                    <option value="Kepulauan_Riau">Kepulauan Riau</option>
+                                    <option value="Lampung">Lampung</option>
+                                    <option value="Maluku">Maluku</option>
+                                    <option value="Maluku_Utara">Maluku Utara</option>
+                                    <option value="Nusa_Tenggara_Barat">Nusa Tenggara Barat</option>
+                                    <option value="Nusa_Tenggara_Timur">Nusa Tenggara Timur</option>
+                                    <option value="Papua">Papua</option>
+                                    <option value="Papua_Barat">Papua Barat</option>
+                                    <option value="Riau">Riau</option>
+                                    <option value="Sulawesi_Barat">Sulawesi Barat</option>
+                                    <option value="Sulawesi_Selatan">Sulawesi Selatan</option>
+                                    <option value="Sulawesi_tengah">Sulawesi_Tengah</option>
+                                    <option value="Sulawesi_Tenggara">Sulawesi Tenggara</option>
+                                    <option value="Sulawesi_utara">Sulawesi Utara</option>
+                                    <option value="Sumatera_Barat">Sumatera Barat</option>
+                                    <option value="Sumatera_Selatan">Sumatera Selatan</option>
+                                    <option value="Sumatera_utara">Sumatera Utara</option>
+                                    <option value="yogyakarta">Yogyakarta</option>
+                                </select>
+            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pekerjaan Ayah</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Pekerjaan Ibu</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Penghasilan Ortu</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"> Contoh Penulisan 1000000 </td>
+                        </tr>
+                        <tr>
+                            <td>Pengeluaran Ortu</td>
+                            <td>:</td>
+                            <td><input type="text" size="35" maxlength="30"> Contoh Penulisan 1000000 </td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+                <br>
+                <li>SUMBER INFORMASI</li>
+                <br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Dari mana mengetahui Poltek GT?</td>
+                            <td>:</td>
+                            <td><select name="Tau_poltek">
+                                    <option value="Pilih_taupoltek" selected="selected">--Pilih--</option>
+                                    <option value="Keluarga">Keluarga</option>
+                                    <option value="Saudara">Saudara</option>
+                                    <option value="Alumni">Alumni</option>
+                                </select></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                <b>
+                    <font face="arial" color="black"> semua data ,setelah terisi dengan benar setelah klik tombol simpan, biodata
+                        anda tidak dapat dirubah kembali !!
+                </b>
+                <br>
+                <input type="submit" value="Simpan">
+                </div>
+        </ol>
+
+            </div>
+        </div>    
+    </div>
+</html>
