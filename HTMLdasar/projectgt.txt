@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>
+latihan html
+</title>
+</head>
+
+<body>
+isi design content
+</body>
+
+
+</html>
